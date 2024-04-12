@@ -1,0 +1,111 @@
+/* Parent-div */
+div.parent-div {
+    width: 420px;
+    height: 640px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px black;
+}
+
+/* Parent-div inside given child-div */
+div.parent-div div.child-div {
+    width: 419px;
+    height: 360px;
+    border-radius: 4px;
+    box-shadow: 0 0 1px black;
+}
+
+/* icon-arrow-left between heart-icon*/
+div.child-div i#icon-arrow-left {
+    margin-right: 85%;
+    margin-top: 5px;
+}
+
+/* backgorund Image */
+div.child-div {
+    background-image: url("./assets/./pngwing.com.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(245, 244, 244);
+}
+
+/*  for given 5-div */
+div.child-div div.circles {
+    margin-left: 40%;
+    margin-top: 76%;
+}
+
+/* for creating circles using css */
+div.child-div div.circle-box {
+    width: 10px;
+    height: 10px;
+    float: inline-start;
+    margin: 3px;
+    border-radius: 50%;
+    background-color: rgb(192, 188, 188);
+}
+
+/* last circle given background-color */
+div.child-div div.on {
+    background-color: red;
+}
+
+/* for Mcdonalds-txt and 5-star */
+div.details div.star{
+    padding: 8px;
+    align-items: flex-start;
+    display: flex; 
+    font-size: 15px; 
+}
+
+/*  for 5-star*/
+span.ratings{
+    padding-left: 22px;
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+/* for 4-filled Yellow color */
+span.ratings i.filled {
+   color: gold;
+}
+
+/* for 1-unfilled color means White */
+span.ratings i.unfilled {
+    color: rgb(175, 175, 175);
+}
+
+/* for Price */
+div.details span.price {
+    /* display: flex; */
+    margin-left: 85%;
+    font-weight: bold;
+}
+
+/* for Double Cheese Burger text */
+div.details h2.food-name {
+    margin-left: 8px;
+    display: flex;
+}
+
+/* for lorem ipsum */
+div.details p.description {
+    text-align: left;
+    padding: 8px;
+}
+
+/* deliver-time div */
+div.deliver-time {
+    display: flex;
+    padding: 8px;
+}
+
+div.deliver-time span.dtl {
+    margin-left: 12px;
+    font-size: 15px;
+}
+
+div.deliver-time span.dtm {
+    margin-left: 12px;
+    font-size: 14px;
+    color: rgb(160, 160, 160);
+}
